@@ -2,8 +2,11 @@
 
 Welcome to the World's Best Weather Dashboard! This project allows users to search for weather information in various cities and provides a 5-day forecast using the OpenWeatherMap API.
 
+## Link to working page
+https://acid0000.github.io/Worlds-best-weather-dashboard/
+
 ## Image of working page
-![Alt text](image-url-or-path "Optional title")
+![Alt text](https://github.com/Acid0000/Worlds-best-weather-dashboard/blob/main/assets/images/image111.png?raw=true)
 
 ## Features
 
