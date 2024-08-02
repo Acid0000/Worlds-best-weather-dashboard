@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+        <main>
+            <section class="search-section">
+                <h2>Search for a city:</h2>
+                <input type="text" id="city-input" placeholder="Enter a city">
+                <input type="text" id="state-input" placeholder="State code (optional)">
+                <input type="text" id="country-input" placeholder="Country code (optional)">
+                <button id="search-button">Search</button>
+                <hr>
+                <button onclick="quickSearch('Atlanta')">Atlanta</button>
+                <button onclick="quickSearch('Denver')">Denver</button>
+                <button onclick="quickSearch('Seattle')">Seattle</button>
+                <button onclick="quickSearch('San Francisco')">San Francisco</button>
+                <button onclick="quickSearch('Orlando')">Orlando</button>
+                <button onclick="quickSearch('New York')">New York</button>
+                <button onclick="quickSearch('Chicago')">Chicago</button>
+                <button onclick="quickSearch('Austin')">Austin</button>
+            </section>
+            <section class="weather-section">
+                <div id="current-weather"></div>
+                <h3>5-Day Forecast:</h3>
+                <div id="forecast"></div>
+            </section>
+        </main>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
